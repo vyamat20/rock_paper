@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.subheader {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px; 
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}

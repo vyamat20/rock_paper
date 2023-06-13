@@ -5,31 +5,17 @@ let computerSelection1 = 555
 let playerSelection1 = 55
 
 
-/*
+
 function scorePlayer() {
     ++playerScore;
-    console.log(`You win! ${playerSelection} beats ${computerSelection}`)
-}
-*/
-function scorePlayer() {
-    ++playerScore;
-   /* console.log("You win!"+ " " + playerSelection + " " + "beats" + " " + computerSelection) */
+  
 }
 
 
 function scoreComputer() {
     ++computerScore;
 }
-/*
-let computerSelection = function computerSelection1() {
-    return (arr[(Math.floor(Math.random() * arr.length))])
-};
 
-let playerSelection = function playerSelection1()  {
-   let selection = prompt("Rock, Paper, or Scissors?");
-   return (selection.charAt(0).toUpperCase() + selection.slice(1).toLowerCase());
-};
-*/
 
 function computerSelection() {
     return (arr[(Math.floor(Math.random() * arr.length))]);
@@ -84,18 +70,8 @@ function playRound(playerSelection, computerSelection) {
 
 }
 
-/*
-function game() {
-    playRound(playerSelection(), computerSelection()) 
-        if (playRound == "Win") {
-            alert("works")
-        } else {
-            alert("yay")
-        }
-    
-}
-*/
 
+/*
 function game() {
    playRound(playerSelection(), computerSelection())
    playRound(playerSelection(), computerSelection())
@@ -110,14 +86,9 @@ function game() {
     console.log(`It's a tie game!!!!! ${playerScore} to ${computerScore}`)
    }
 
-
-
-
-
-
-
  }
        
 
-
 game();
+
+*/
