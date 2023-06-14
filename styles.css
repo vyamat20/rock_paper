@@ -24,10 +24,10 @@
     margin-top: 80px; 
 }
 
-.btn {
-    display: flex;
-    justify-content: space-between;
+button {
+    margin: 0px 30px;
 }
+
 
 .text-line {
     display: flex;
@@ -38,4 +38,11 @@
 
 .text {
     margin: 40px;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 40px;
 }
