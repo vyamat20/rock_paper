@@ -98,7 +98,7 @@ function gameOver() {
     computerScore = 0;
     }
     if (computerScore == 5) {
-        output.textContent = "You lost! Better luck next time.."
+        output.textContent = "You lost the game! Better luck next time.."
         playerScore = 0;
         computerScore = 0;
     }
